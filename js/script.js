@@ -5,6 +5,7 @@ var bandName = document.querySelector(".bandName");
 var closeBtn = document.querySelector(".close");
 
 //open modal on click of band name
+
 bandName.onclick = function() {
 	bioModal.style.display = "block";
 }
