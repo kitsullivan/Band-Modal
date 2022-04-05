@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <title>Band Modal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
   </head>
   <body>
 	   <section>
       <div>
-        <h3 style="text-align:center;white-space:pre-wrap;"><span class="sqsrte-text-color--black">Haddon Sayers</span></h3>
-        <p style="text-align:center;white-space:pre-wrap;" class="sqsrte-large">Andicus   |   Brian Olsheski & Friends   |   The Big Rockin’ Blues Band   |   Honey & Blue   |   Hannah Hampton   |   Topher James & The Biscuit Brigade   |   Lily Bloom   |   Bexley Surprise   |   Suzuki Music Columbus Tour Group Orchestra   |   Libby Dietri   |   Jesse Henry   |   Michael Cox   |   Alexandra & Ben   |   Waves De Ache   |   Slim Boogie   |   The Esteems  |   Chaz & Nikki   |   Bexley Jazz Combo   |   Nomadic Earth  |  Shane Weisman</p>
+        <h3 style="text-align:center;white-space:pre-wrap;" class="blue_hover"><span class="sqsrte-text-color--black bandName">Haddon Sayers</span></h3>
+        <p style="text-align:center;white-space:pre-wrap;" class="sqsrte-large blue_hover"><span class="bandName andicus">Andicus</span>   |   <span class="bandName brian">Brian Olsheski & Friends</span>   |   <span class="bandName bigRockin">The Big Rockin’ Blues Band</span>   |   <span class="bandName honey">Honey & Blue</span>   |   <span class="bandName hannah">Hannah Hampton</span>   |   <span class="bandName topher">Topher James & The Biscuit Brigade</span>   |   <span class="bandName lily">Lily Bloom</span>   |   <span class="bandName surprise">Bexley Surprise</span>   |   <span class="bandName suzuki">Suzuki Music Columbus Tour Group Orchestra</span>   |   <span class="bandName libby">Libby Dietri</span>  |   <span class="bandName jesse">Jesse Henry</span>   |   <span class="bandName michael">Michael Cox</span>   |   <span class="bandName alexandra">Alexandra & Ben</span>   |   <span class="bandName waves">Waves De Ache</span>   |   <span class="bandName slim">Slim Boogie</span>   |   <span class="bandName esteem">The Esteems</span>  |   <span class="bandName chaz">Chaz & Nikki</span>   |   <span class="bandName esteems">The Esteems</span>   |   <span class="bandName jazz">Bexley Jazz Combo</span>   |   <span class="bandName nomadic">Nomadic Earth</span>  |  <span class="bandName shane">Shane Weisman</span></p>
       </div>
-      <div class="artists_bio_modal"></div>
+      <div id="bioModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3 class="modal-headline">Hadden Sayers</h3>
+          <p class="modal-copy"> Native-Texan Hadden Sayers is just as comfortable on a massive festival stage with a Stratocaster in his hands as he is strumming an acoustic guitar in your living room...<br>Equal parts blue-eyed soul and red-hot guitar.  This is a mesmerizing multi-dimensional live performance. Hadden is a master of his instruments... but his passionate songwriting,  which twists roots rock, blues and soul music into something completely fresh, is what sets him apart from the pack.<br><a href="http://www.haddensayers.com/" target="_blank">http://www.haddensayers.com/</a></p>
+        
+        </div>
+      </div>
      </section>
   </body>
 </html>

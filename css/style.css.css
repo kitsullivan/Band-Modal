@@ -1,0 +1,8 @@
+section {
+	max-width: 1200px;
+}
+.blue_hover span:hover {
+	font-weight: bold;
+	color: #6699A3;
+	cursor: pointer;
+}
